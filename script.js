@@ -1,4 +1,3 @@
-const apiKey = "530e63a6854ba2a466b4da293a74575e";
 const ciudadPredeterminada = "A coruña";
 
 const cityInput = document.querySelector(".search-bar input");
@@ -18,5 +17,10 @@ async function buscarClima(ciudad) {
 		console.error("Error al obtener el clima: ", error);
 	}
 }
-
 buscarClima(ciudadPredeterminada);
+
+function updateWeather(data) {
+	document.querySelector(".temp").innerHTML = `${Math.round(data.main.temp)}&deg;C`;
+	document.querySelector(".city").innerHTML = data.name;
+	document.querySelector(".humidity").innerHTML = `${data.main.humidity}`;
+}
