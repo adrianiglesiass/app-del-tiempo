@@ -31,7 +31,7 @@ Clona el repositorio:
 bashgit clone https://github.com/adrianiglesiass/app-del-tiempo.git
 
 Crea un archivo config.js en la raíz del proyecto con el siguiente contenido:
-js const apiKey = "TU_API_KEY_AQUI";
+ const apiKey = "TU_API_KEY_AQUI";
 
 Sustituye "TU_API_KEY_AQUI" por tu clave de OpenWeatherMap: https://openweathermap.org/api
    
