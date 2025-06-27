@@ -1,5 +1,6 @@
-🌤️ App del Tiempo
-Aplicación web que permite consultar el clima actual de cualquier ciudad usando la API de OpenWeatherMap.
+# 🌤️ App del Tiempo
+
+Aplicación web que permite consultar el clima actual de cualquier ciudad usando la API de OpenWeatherMap.  
 Interfaz moderna, búsqueda dinámica y visualización clara del estado del tiempo.
 ![app-del-tiempo](https://github.com/user-attachments/assets/19ff3008-8cfa-4080-a56e-2911ec5a8e0c)
 
