@@ -7,10 +7,15 @@ Interfaz moderna, búsqueda dinámica y visualización clara del estado del tiem
 🚀 Características
 
 ✅ Ciudad por defecto: A Coruña.
+
 🔎 Búsqueda de clima por ciudad (input + botón o tecla Enter).
+
 🌦️ Icono dinámico según el clima (Clear, Clouds, Rain, Snow).
+
 ⚠️ Gestión de errores con mensaje en pantalla para ciudades no válidas.
+
 🛡️ API Key protegida externamente en config.js (excluida con .gitignore).
+
 🎨 Estilos limpios y responsive usando CSS y Google Fonts.
 
 🛠️ Tecnologías
@@ -26,7 +31,7 @@ Clona el repositorio:
 bashgit clone https://github.com/adrianiglesiass/app-del-tiempo.git
 
 Crea un archivo config.js en la raíz del proyecto con el siguiente contenido:
-jsconst apiKey = "TU_API_KEY_AQUI";
+js const apiKey = "TU_API_KEY_AQUI";
 
 Sustituye "TU_API_KEY_AQUI" por tu clave de OpenWeatherMap: https://openweathermap.org/api
    
