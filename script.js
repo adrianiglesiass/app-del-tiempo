@@ -41,7 +41,7 @@ function updateWeather(data) {
 		Clouds: "images/clouds.png"
 	};
 
-	weatherIcon.src = weatherIcons[data.weather[0].main] || "images/rain.gif";
+	weatherIcon.src = weatherIcons[data.weather[0].main] || "images/default.png";
 	weatherCont.style.display = "block";
 }
 
