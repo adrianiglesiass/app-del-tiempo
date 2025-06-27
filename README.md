@@ -21,8 +21,11 @@ Interfaz moderna, búsqueda dinámica y visualización clara del estado del tiem
 🛠️ Tecnologías
 
 HTML5
+
 CSS3
+
 JavaScript (Vanilla)
+
 OpenWeatherMap API
 
 📦 Instalación
