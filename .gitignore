@@ -1,0 +1,19 @@
+# Evita subir configuraciones de sistema
+.DS_Store
+Thumbs.db
+
+# Evita archivos temporales de editores
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Evita la clave secreta
+config.js
+
+# VS Code settings (si quieres mantener tu workspace privado)
+.vscode/
+
+# Archivos del sistema de Windows (opcional)
+desktop.ini
